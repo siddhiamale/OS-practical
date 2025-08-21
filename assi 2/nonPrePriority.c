@@ -90,11 +90,6 @@ time += bt[i];
 ft[i] = time;
 }
 
-// calculate finish time
-for(int i=0;i<p;i++){
-ft[i]=st[i]+bt[i];
-}
-
 //calculate tat and wt
 for (int i = 0; i < p; i++) {
         wt[i] = st[i] - at[i];
