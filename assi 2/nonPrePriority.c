@@ -1,4 +1,4 @@
-// Program for non pre emptive SJF scheduling
+// Program for non pre emptive Priority Scheduling
 #include<stdio.h>
 #include<stdlib.h>
 
