@@ -53,11 +53,6 @@ time += bt[i];
 ft[i] = time;
 }
 
-// calculate finish time
-for(int i=0;i<p;i++){
-ft[i]=st[i]+bt[i];
-}
-
 //calculate tat and wt
 for (int i = 0; i < p; i++) {
         wt[i] = st[i] - at[i];
@@ -75,7 +70,6 @@ printf("\n*** Gantt Chart ***\n|");
 for (int i = 0; i < p; i++) {
      printf("  P%d  |", pid[i]);
 }
-printf("\n0");
 printf("\n%d", st[0]);
     for (int i = 0; i < p; i++) {
         printf("    %d", ft[i]);
