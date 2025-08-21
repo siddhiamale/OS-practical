@@ -7,14 +7,8 @@ int p;
 printf("Enter how many processes\n");
 scanf("%d",&p);
 
-int *bt = (int *)malloc(p * sizeof(int));   // burst time
-int *at = (int *)malloc(p * sizeof(int));   // arrival time
-int *st = (int *)malloc(p * sizeof(int));   // start time
-int *tat = (int *)malloc(p * sizeof(int));  // turnaround tim
-int *wt = (int *)malloc(p * sizeof(int));   // waiting time
-int *ft = (int *)malloc(p * sizeof(int));   // finish time
-int *pid = (int *)malloc(p * sizeof(int));  // process id
-
+int bt[p],at[p],st[p],wt[p],ft[p],tat[p],pid[p];
+	
 for(int i=0;i<p;i++)
 {
 pid[i]=i+1;
