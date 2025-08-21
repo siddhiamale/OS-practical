@@ -111,7 +111,6 @@ printf("\n*** Gantt Chart ***\n|");
 for (int i = 0; i < p; i++) {
      printf("  P%d  |", pid[i]);
 }
-//printf("\n");
 printf("\n%d", st[0]);
 for (int i = 0; i < p; i++) {
         printf("    %d", ft[i]);
