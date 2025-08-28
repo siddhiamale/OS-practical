@@ -24,7 +24,7 @@ for(int i=0;i<p-1;i++)
 {
 for(int j=i+1;j<p;j++)
 {
-if (at[j]<at[i] )|| (at[j] == at[i] && bt[j] < bt[i])) 
+if ((at[j]<at[i] )|| (at[j] == at[i] && bt[j] < bt[i])) 
 {
 // swap for at
 int temp=at[i];
