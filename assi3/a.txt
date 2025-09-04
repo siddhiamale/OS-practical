@@ -1,0 +1,3 @@
+Hello World
+This is sample file
+Shell is an interface between user and OS 
