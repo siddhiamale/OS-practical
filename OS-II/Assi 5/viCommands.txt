@@ -1,0 +1,87 @@
+
+1. Starting vi
+vi              # Open new empty file
+vi filename     # Open existing file or create if not exists
+vi -r filename  # Recover file after crash
+vi -R filename  # Open file in read-only mode
+
+  
+2. Exiting vi
+
+Press : before writing these commands.
+
+:q      # Quit without saving
+:w      # Save file
+:wq     # Save and quit
+:w name # Save as (write to new file)
+
+:q!     # Quit without saving changes
+:w!     # Force save if file is read-only
+ZZ      # Save and quit (Shift + ZZ)
+
+  
+3. vi Modes
+Command Mode (default):
+  For navigation, deleting, copying, saving.
+  All vi commands work here.
+
+Insert Mode:
+  For typing text.
+  Enter: i, I, a, A, o, O
+  Exit: Esc
+
+
+4. Enter Insert Mode
+i   Insert before cursor
+I   Insert at start of line
+a   Insert after cursor
+A   Insert at end of line
+o   New line below, enter insert mode
+O   New line above, enter insert mode
+
+  
+5. Delete Commands
+x      Delete char under cursor
+X      Delete char before cursor
+Nx     Delete N characters
+dw     Delete to next word
+dNw    Delete N words
+d^     Delete to start of line
+d$     Delete to end of line
+D      Delete to end of line
+dd     Delete current line
+3dd    Delete 3 lines
+
+
+6. Copy, Paste, Undo
+yy      Copy current line
+Nyy     Copy N lines
+yw      Copy one word
+
+p       Paste after cursor
+P       Paste before cursor
+
+U       Undo all edits on current line
+.       Repeat last command
+
+
+7. Replace / Change Text
+r       Replace one character
+R       Overwrite text (Esc to stop)
+s       Replace character + enter insert mode
+S       Delete line + insert new text
+
+
+8. Moving Cursor
+h       Left
+l       Right
+j       Down
+k       Up
+0       Move to start of line
+$       Move to end of line
+w       Jump to next word
+
+  
+9. Search
+/string   # Search forward
+?string   # Search backward
