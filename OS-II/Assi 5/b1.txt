@@ -1,5 +1,5 @@
-1.Create a file by Input devices.txt with vi editor
-vi Input devices.txt
+Set B:
+1.Create a file by Input devices.txt with vi editor vi Input devices.txt
 
 a) Move to the first line of the file.
 gg OR 1G
