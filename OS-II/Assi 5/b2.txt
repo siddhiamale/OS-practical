@@ -1,0 +1,44 @@
+Set B :
+
+2. Create a file name containing five lines and execute the following vi commands.
+Write the result of each command.
+
+# Create and open file
+vi sample.txt
+
+
+1. cc
+cc
+# Result: Clears the entire current line and places you in insert mode to rewrite that line.
+
+
+2. D
+D
+# Result: Deletes everything from cursor position to end of the current line.
+
+
+3. C
+C
+# Result: Deletes from cursor to end of line and puts you in insert mode.
+
+
+4. s
+s
+# Result: Deletes only the character under the cursor and switches to insert mode.
+
+
+5. S
+S
+# Result: Deletes the entire current line and puts you in insert mode (same as cc).
+
+
+6. rchr
+r x      (example)
+# Result: r replaces only the character under cursor with the next character you type.
+
+
+7. R
+R
+# Result:
+Enters replace mode.
+Every new character you type overwrites existing characters until you press Esc.
