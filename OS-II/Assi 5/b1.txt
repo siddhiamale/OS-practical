@@ -1,0 +1,25 @@
+1.Create a file by Input devices.txt with vi editor
+vi Input devices.txt
+
+a) Move to the first line of the file.
+gg OR 1G
+
+
+b) Insert a blank line below the 3rd line
+#Go to line 3:
+3G
+#Insert blank line below using:
+o
+
+
+c) Delete any 3 lines
+3dd
+
+d) Join any two lines together
+J
+
+e) Restore the single deleted line
+u
+
+f) Search the keyword “dev” from a file.
+/dev
